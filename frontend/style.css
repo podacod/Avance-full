@@ -1,0 +1,70 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container for form and header */
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+/* Header style */
+h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Form inputs */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6a1b9a;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+form button:hover {
+  background-color: #4a148c;
+}
+
+/* Input focus */
+form input:focus {
+  border: 2px solid #6a1b9a;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+
+  
